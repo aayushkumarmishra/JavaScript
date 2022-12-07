@@ -41,3 +41,11 @@ var myName = "Ayush Mishra";
 
 console.log(isNaN(myPhoneNumber));
 console.log(isNaN(myName));
+
+// some example for NaN
+
+console.log(NaN == NaN); // false - NaN yaha kuch hai hi nahi Esliye false
+console.log(Number.NaN == NaN); // false
+console.log(isNaN(NaN));
+console.log(isNaN(Number.NaN));
+console.log(Number.isNaN(NaN));
